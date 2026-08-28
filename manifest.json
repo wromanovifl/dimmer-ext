@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "dimmer-ext",
+  "version": "0.2.0",
+  "description": "Chrome extension that tracks reading time per tab",
+  "permissions": ["tabs", "storage"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html" }
+}
